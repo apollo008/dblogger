@@ -1,0 +1,90 @@
+[2020-11-08 01:02:00] [498,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:00]
+[2020-11-08 01:02:01] [499,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:01]
+[2020-11-08 01:02:02] [499,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:02]
+[2020-11-08 01:02:03] [499,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:03]
+[2020-11-08 01:02:04] [500,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:04]
+[2020-11-08 01:02:05] [501,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:05]
+[2020-11-08 01:02:06] [501,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:06]
+[2020-11-08 01:02:07] [502,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:07]
+[2020-11-08 01:02:08] [502,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:08]
+[2020-11-08 01:02:09] [503,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:09]
+[2020-11-08 01:02:10] [504,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:10]
+[2020-11-08 01:02:11] [504,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:11]
+[2020-11-08 01:02:12] [505,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:12]
+[2020-11-08 01:02:13] [506,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:13]
+[2020-11-08 01:02:14] [506,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:14]
+[2020-11-08 01:02:15] [507,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:15]
+[2020-11-08 01:02:16] [508,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:16]
+[2020-11-08 01:02:17] [509,process(1308),thread(10772),simpleloggerdemo.py:19 -- main() INFO] [2020-11-08 01:02:17]
+[2020-11-08 01:02:17] [860,process(11720),thread(4144),dblogger.py:151 -- run() ERROR] [[DBLoggingProcess] from process:[LoggerProcess(11720)] got exception:[Traceback (most recent call last):
+  File "F:\temp\temp1\smartlogger\smartlogger\utils\logutils\dblogger.py", line 140, in run
+    record = self.dbloggingWrapper.getQueue().get(block=True, timeout=1)
+  File "f:\python37\lib\multiprocessing\queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "f:\python37\lib\multiprocessing\connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "f:\python37\lib\multiprocessing\connection.py", line 330, in _poll
+    return bool(wait([self], timeout))
+  File "f:\python37\lib\multiprocessing\connection.py", line 868, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+  File "f:\python37\lib\multiprocessing\connection.py", line 800, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+KeyboardInterrupt
+] and will stop!!!]
+[2020-11-08 01:02:17] [860,process(11720),thread(4144),dblogger.py:153 -- run() INFO] [===========[DBLoggingProcess] from process:[LoggerProcess(11720)] stopped right now!!!]
+[2020-11-08 01:03:15] [649,process(5292),thread(6080),dblogger.py:137 -- run() INFO] [[DBLoggingProcess] from process:[LoggerProcess(5292)] started...]
+[2020-11-08 01:03:15] [551,process(2656),thread(7284),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:03:15]
+[2020-11-08 01:03:16] [553,process(2656),thread(7284),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:03:16]
+[2020-11-08 01:03:17] [553,process(2656),thread(7284),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:03:17]
+[2020-11-08 01:03:18] [554,process(2656),thread(7284),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:03:18]
+[2020-11-08 01:03:18] [588,process(5292),thread(6080),dblogger.py:151 -- run() ERROR] [[DBLoggingProcess] from process:[LoggerProcess(5292)] got exception:[Traceback (most recent call last):
+  File "F:\temp\temp1\smartlogger\smartlogger\utils\logutils\dblogger.py", line 140, in run
+    record = self.dbloggingWrapper.getQueue().get(block=True, timeout=1)
+  File "f:\python37\lib\multiprocessing\queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "f:\python37\lib\multiprocessing\connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "f:\python37\lib\multiprocessing\connection.py", line 330, in _poll
+    return bool(wait([self], timeout))
+  File "f:\python37\lib\multiprocessing\connection.py", line 868, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+  File "f:\python37\lib\multiprocessing\connection.py", line 800, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+KeyboardInterrupt
+] and will stop!!!]
+[2020-11-08 01:03:18] [588,process(5292),thread(6080),dblogger.py:153 -- run() INFO] [===========[DBLoggingProcess] from process:[LoggerProcess(5292)] stopped right now!!!]
+[2020-11-08 01:20:26] [442,process(3736),thread(10464),dblogger.py:137 -- run() INFO] [[DBLoggingProcess] from process:[LoggerProcess(3736)] started...]
+[2020-11-08 01:20:26] [345,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:26]
+[2020-11-08 01:20:27] [346,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:27]
+[2020-11-08 01:20:28] [347,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:28]
+[2020-11-08 01:20:29] [347,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:29]
+[2020-11-08 01:20:30] [348,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:30]
+[2020-11-08 01:20:31] [348,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:31]
+[2020-11-08 01:20:32] [349,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:32]
+[2020-11-08 01:20:33] [350,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:33]
+[2020-11-08 01:20:34] [350,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:34]
+[2020-11-08 01:20:35] [351,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:35]
+[2020-11-08 01:20:36] [352,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:36]
+[2020-11-08 01:20:37] [355,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:37]
+[2020-11-08 01:20:38] [356,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:38]
+[2020-11-08 01:20:39] [356,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:39]
+[2020-11-08 01:20:40] [357,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:40]
+[2020-11-08 01:20:41] [358,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:41]
+[2020-11-08 01:20:42] [358,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:42]
+[2020-11-08 01:20:43] [359,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:43]
+[2020-11-08 01:20:44] [360,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:44]
+[2020-11-08 01:20:45] [360,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:45]
+[2020-11-08 01:20:46] [361,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:46]
+[2020-11-08 01:20:47] [362,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:47]
+[2020-11-08 01:20:48] [362,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:48]
+[2020-11-08 01:20:49] [363,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:49]
+[2020-11-08 01:20:50] [364,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:50]
+[2020-11-08 01:20:51] [364,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:51]
+[2020-11-08 01:20:52] [365,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:52]
+[2020-11-08 01:20:53] [366,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:53]
+[2020-11-08 01:20:54] [366,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:54]
+[2020-11-08 01:20:55] [367,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:55]
+[2020-11-08 01:20:56] [367,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:56]
+[2020-11-08 01:20:57] [368,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:57]
+[2020-11-08 01:20:58] [369,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:58]
+[2020-11-08 01:20:59] [369,process(8740),thread(3700),simpleloggerdemo.py:21 -- main() INFO] [2020-11-08 01:20:59]
