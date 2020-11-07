@@ -18,4 +18,5 @@ You can try to run dblogger demo executable by run commands:
     or 
     python -m smartlogger.utils.logutils.dbloggerdemo
   
-under root directory of project. After run these commands, you will see the rotating log files under directory:[smartlogger/logs/app.log*].
+under root directory of project. After run these commands, you will see the rotating log files: 
+app.log and app.log.2020-11-08_01-01 and so on under directory:[smartlogger/logs].
