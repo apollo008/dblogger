@@ -3,7 +3,7 @@
 This project implements a both multi-threads-safe and multi-process-safe logger named **dblogger** in python language.
 
 dblogger main interfaces are in file: [smartlogger/utils.dblogger.py]
-Its config file is :[smartlogger/conf/logger.conf],which contains serveral key configuration below:
+Its config file is :[smartlogger/conf/logger.conf],which contains several key configuration below:
 
     [handler_truncateTimedRotatingFileHandler]
     class=smartlogger.utils.logutils.truncate_timed_rotating_filehandler.TruncateTimedRotatingFileHandler
